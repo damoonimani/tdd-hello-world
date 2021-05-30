@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+if ARGV[0] == 'test'
+  require_relative 'test_suite'
+else
+  puts 'did u mean autorake test?'
+end
